@@ -1,0 +1,31 @@
+div {
+  background-color: lightblue;
+}
+
+div:hover {
+  background-color: pink;
+}
+
+.btn-aku {
+  background-color: black;
+  color: white;
+}
+
+.btn-aku:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-aku:active {
+  background-color: lightgray;
+  color: black;
+}
+
+p::first-line {
+  color: red;
+}
+
+p::after {
+  content: "Ini tag P loh gaes";
+  color: green;
+}
